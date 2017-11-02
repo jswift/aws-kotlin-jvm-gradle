@@ -30,6 +30,10 @@ class Handler: RequestHandler<APIGatewayProxyRequestEvent, ApiGatewayResponse> {
 }
 ```
 
+### Response
+Response objects extend the `Response` class and are converted to JSON. The simplest option
+is to create a data class, as demonstrated in `HelloResponse`.
+
 ### AWS Java SDK
 If you need to use the AWS Java SDK in your functions, you can use the Bill-of-Materials
 (BOM) provided in the gradle file. When adding a library, such as _S3_, you just add
