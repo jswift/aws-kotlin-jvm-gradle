@@ -3,6 +3,8 @@
 This is a boilerplate template for [serverless](https://serverless.com/) using AWS, 
 Kotlin, and Gradle.
 
+I also have a Serverless template using Spring Cloud Function, [aws-kotlin-jvm-spring](https://github.com/jswift/aws-kotlin-jvm-spring).
+
 ## Requirements
  - Serverless 1.24 or higher
  - Gradle 4 and JDK8 
